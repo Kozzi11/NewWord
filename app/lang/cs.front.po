@@ -1,0 +1,49 @@
+# Gettext keys exported by GettextTranslator and Translation Panel
+# Created: 2013-02-19 20:42:14
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2013-02-19 20:42+0100\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=((n==1) ? 0 : (n>=2 && n<=4 ? 1 : 2));\n"
+
+
+msgid "Error"
+msgstr[0] "Chyba"
+msgstr[1] "Chyby"
+msgstr[2] "Chyb"
+
+msgid "Přihlásit"
+msgstr[0] "Přihlásit"
+msgstr[1] "Přihlásit"
+msgstr[2] "Přihlásit"
+
+msgid "The username is incorrect."
+msgstr[0] "Neplatný email !!!"
+msgstr[1] "Neplatný email !!!"
+msgstr[2] "Neplatný email !!!"
+
+msgid "kod.Edit"
+msgstr "Kód editor"
+
+msgid "login.succes"
+msgstr[0] "Přihlášení proběhlo úspěšně"
+msgstr[1] "Přihlášení proběhlo úspěšně"
+msgstr[2] "Přihlášení proběhlo úspěšně"
+
+msgid "logout"
+msgstr "Odhlásit"
+
+msgid "New item"
+msgstr "Nová položka"
+
+msgid "English"
+msgstr ""
+
+msgid "Česky"
+msgstr ""
+

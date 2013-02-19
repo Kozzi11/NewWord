@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="description" content="">
+	<meta name="robots" content="{$robots}" n:ifset="$robots">
+
+	<title>{block title|striptags|upper}Nette Application Skeleton{/block}</title>
+
+	<link rel="stylesheet" type="text/css" href="{$basePath}/bootstrap/css/bootstrap.min.css">
+	{block head}{/block}
+</head>
+
+<body style="padding:50px"><div class="container">
+	{control menu}
+	<div class="container">
+	{block header}
+	<div class="hero-unit" style="background-image: url('/NewWorldProject/www/images/virtual2.png');height: 105px">
+	</div>
+	{/block}
+	    <div n:foreach="$flashes as $flash" class="flash {$flash->type}">{$flash->message}</div>
+	{include #content}
+        </div>
+
+	{block scripts}
+	<script src="{$basePath}/js/jquery.js"></script>
+	<script src="{$basePath}/js/netteForms.js"></script>
+	<script src="{$basePath}/js/main.js"></script>
+	<script src="{$basePath}/bootstrap/js/bootstrap.min.js"></script>
+	{/block}
+</body>
+</html>
